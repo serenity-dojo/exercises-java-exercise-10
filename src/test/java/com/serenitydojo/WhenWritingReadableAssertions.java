@@ -102,6 +102,7 @@ public class WhenWritingReadableAssertions {
         List<String> colors = Arrays.asList("red","green","blue");
 
         // Check that the list contains "red" and "blue
+        assertThat(true).isFalse();
     }
 
     @Test
@@ -109,13 +110,15 @@ public class WhenWritingReadableAssertions {
         List<String> colors = Arrays.asList("red","green","blue");
 
         // Check that the list contains 3 elements
+        assertThat(true).isFalse();
     }
 
     @Test
     public void whenAListContainsExactlyASetOfValues() {
         List<String> colors = Arrays.asList("red","green","blue");
 
-        // Check that the list contains "red","green" and "blue" in any order
+        // Check that the list contains "red","green" and "blue"
+        assertThat(true).isFalse();
     }
 
     @Test
@@ -123,6 +126,7 @@ public class WhenWritingReadableAssertions {
         List<String> colors = Arrays.asList("red","green","blue");
 
         // Check that the list contains "red","blue" and "green" in any order
+        assertThat(true).isFalse();
     }
 
 
